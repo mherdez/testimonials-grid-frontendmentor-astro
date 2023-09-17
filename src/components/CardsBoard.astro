@@ -1,0 +1,14 @@
+---
+import Card from './Card.astro';
+import { type UserInterface } from '../helpers/userInterface.ts'
+
+interface Props {
+  users: UserInterface[];
+}
+const {users} = Astro.props;
+
+---
+
+<main class="grid gap-5 lg:grid-cols-4 lg:grid-rows-2 lg:gap-7 w-[70%] lg:max-w-[1440px] grid-cols-1">
+  { users.map( user => <Card user={user} />)}
+</main>
