@@ -3,7 +3,7 @@ import type { UserInterface } from './userInterface';
 export const users: UserInterface[] = [
   {
     name: 'Daniel Clifford',
-    clases: ['order-1', 'lg:col-span-2', 'bg-testimonials-Moderate-violet'],
+    clases: ['order-[10]', 'lg:col-span-2', 'bg-testimonials-Moderate-violet', 'text-testimonials-White'],
     photo: {
       file: 'image-daniel.jpg',
       alt: 'Daniel',
@@ -16,7 +16,7 @@ export const users: UserInterface[] = [
   },
   {
     name: 'Jonathan Walters',
-    clases: ['order-2', 'bg-testimonials-Very-dark-grayish-blue'],
+    clases: ['order-[20]', 'bg-testimonials-Very-dark-grayish-blue', 'text-testimonials-White',,],
     photo: {
       file: 'image-jonathan.jpg',
       alt: 'Jonathan',
@@ -29,7 +29,7 @@ export const users: UserInterface[] = [
   },
   {
     name: 'Kira Whittle',
-    clases: ['order-3', 'lg:row-span-2', 'bg-testimonials-White'],
+    clases: ['order-[30]', 'lg:row-span-2', 'bg-testimonials-White', 'text-testimonials-Very-dark-blackish-blue'],
     photo: {
       file: 'image-kira.jpg',
       alt: 'Kira',
@@ -42,7 +42,7 @@ export const users: UserInterface[] = [
   },
   {
     name: 'Jeanette Harmon',
-    clases: ['order-3', 'bg-testimonials-White'],
+    clases: ['order-[40]', 'bg-testimonials-White', 'text-testimonials-Very-dark-blackish-blue'],
     photo: {
       file: 'image-jeanette.jpg',
       alt: 'Jeanette',
@@ -55,7 +55,7 @@ export const users: UserInterface[] = [
   },
   {
     name: 'Patrick Abrams',
-    clases: ['order-5', 'lg:col-span-2', 'bg-testimonials-Very-dark-blackish-blue'],
+    clases: ['order-[50]', 'lg:col-span-2', 'bg-testimonials-Very-dark-blackish-blue', 'text-testimonials-White'],
     photo: {
       file: 'image-patrick.jpg',
       alt: 'Patrick',
@@ -66,4 +66,5 @@ export const users: UserInterface[] = [
     review:
       `“ The staff seem genuinely concerned about my progress which I find really refreshing. The program gave me the confidence necessary to be able to go out in the world and present myself as a capable junior developer. The standard is above the rest. You will get the personal attention you need from an incredible community of smart and amazing people. ”`,
   },
+
 ];
